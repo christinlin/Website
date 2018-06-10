@@ -78,14 +78,17 @@ body, html {
   <p class="w3-center">Life as an Engineer</p>
    <div class="w3-row">
     <div class="w3-col m6 w3-center w3-small w3-padding-large">
-      <img src="me.jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="300" height="300">
+      <img src="me.jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="400" height="400">
     </div>
     <div>
-  <p>Hello! My name is Christin and I am an undergraduate college sophomore attending the University of Washington Seattle in the Washington State Academic Redshirt (STARS) Engineering Program intending to major in Computer Science & Engineering.
+  <p>Hello! My name is Christin and I am a college sophomore attending the University of Washington Seattle in the Washington State Academic Redshirt (STARS) Engineering Program intending to major in Computer Science & Engineering.
   </p>
-  <p>As a college student, my goal is to explore technologies and programming languages in order to advance my knowledge in computing, opening career and internship opportunities to accelerate my tech career. I am also motivated about starting my own personal projects this summer and posting about my progress on my blog through this website. I became interested in the tech field after attending the Microsoft DigiGirlz High Tech Camp in the summer of my sophomore year in high school. In my junior year, I challenged myself to enroll in the AP Computer Science class offered at my high school and later participated in the Girls Who Code Summer Immersion Program at Expedia Inc. Ever since, I've participated and competed in a diverse range of hackathons throughout the Seattle-Bellevue area to bring my own ideas out to the table. 
+  <p>As a college student, my goal is to explore various technologies and programming languages in order to advance my knowledge in computing, opening career and internship opportunities to accelerate my tech career. Furthermore, I am starting my own personal projects this summer and will be posting about my progress on them through my blog. 
+  <p>
+    After attending Microsoft DigiGirlz High Tech Camp one summer, I challenged myself to enroll in the AP Computer Science class offered at my high school. Ever since, I've participated and competed in a diverse range of hackathons throughout the Seattle-Bellevue area to bring my own ideas out to the table. 
   </p>
-  <p>Furthermore, last summer I intern at Expedia Inc. HQ in Bellevue as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) team working on the Media Vault Functionality project of the Expedia Local Expert site. This summer I will be working at Edifecs, a leading healthcare technology company in Bellevue with the mission to improve healthcare outcomes, reduce costs and accelerate innovation. Starting in October this fall, I will be interning at T-Mobile HQ in Bellevue as a Software Engineer on the Digital Development & Innovation Team helping to improve T-Mobile's innovation across digital development through CI/CD/CT best practices using cloud based platforms such as Amazaon WebServices and Azure.</p>
+  <p>Additionally, last summer I intern at Expedia Inc. HQ in Bellevue as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) team working on the Media Vault Functionality project. This summer I will be interning at Edifecs, a leading healthcare technology company in Bellevue to learn about Machine Learning. In the fall, I will be interning at T-Mobile HQ as a Software Developer on the Digital Development & Innovation Team.  
+  </p>
 </div>
 </div>
 </div>
@@ -104,9 +107,35 @@ body, html {
 
   
     <!-- Left Column -->
-    <div class="w3-content w3-small w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">EDUCATION</h3>
-  <p>uojfhhfjkhjdhfbjkfhdgkbjgfd,fdkfdglfdghfdk </p>
+    <div class="w3-content w3-small w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">PORTFOLIO</h3>
+  <p></p>
+
+ 
+
+  <!-- Photo grid (modal) 
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="/w3images/kitchenconcrete.jpg" style="width:100%" onclick="onClick(this)" alt="Concrete meets bricks">
+      <img src="/w3images/livingroom.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="/w3images/diningroom.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">
+    </div>
+
+    <div class="w3-half">
+      <img src="/w3images/atrium.jpg" style="width:100%" onclick="onClick(this)" alt="Windows for the atrium">
+      <img src="/w3images/bedroom.jpg" style="width:100%" onclick="onClick(this)" alt="Bedroom and office in one space">
+      <img src="/w3images/livingroom2.jpg" style="width:100%" onclick="onClick(this)" alt="Scandinavian design">
+    </div>-->
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
     <div class="w3-third">
       <div>
  
@@ -150,7 +179,7 @@ body, html {
 <!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center w3-xlarge">CONTACT ME!</h3>
-  <p class="w3-center">I'd love to hear your feedback!</p>
+  <p class="w3-center">I'd love to hear from you!</p>
     <div class="w3-col m4 w3-container">
 
     </div>
@@ -161,20 +190,19 @@ body, html {
       <div class="w3-xlarge w3-margin-bottom">
         <i class="fa fa-map-marker w3-xlarge w3-margin-right"></i> Bellevue, Washington <br>
         <i class="fa fa-phone w3-xlarge w3-margin-right"></i> Phone: (510)-270-8102 <br>
-        <i class="fa fa-envelope w3-xlarge w3-margin-right"></i> Email: clin3@uw.edu <br>      
-
+        <i class="fa fa-envelope w3-xlarge w3-margin-right"></i> Email: clin3@uw.edu <br>  
       </div>
-<div class="w3-col m8 w3-panel w3-xxlarge w3-center">
-      <footer class="w3-center ">
+
+<div class="w3-container w3-xxlarge">
+  
   <a href="https://www.facebook.com/luvmehbestfrand" ><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
 
-    <a href="https://www.instagram.com/christinnlin/?hl=en" ><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/christinnlin/?hl=en"><i class="fa fa-instagram w3-hover-opacity w3-center"></i></a>
 
       <a href="https://twitter.com/christinlin33" ><i class="fa fa-twitter w3-hover-opacity"></i></a>
 
       <a href="https://www.linkedin.com/in/christinlin/" ><i class="fa fa-linkedin w3-hover-opacity"></i></a>
       
-</footer> 
 </div>
   
       </div>
