@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="icon" href="monitor.png" type="w3-image" sizes="16x16">
+<link rel="icon" href="monitor.png" type="w3-image" sizes="5x5">
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", arial;}
@@ -18,7 +18,7 @@ body, html {
     line-height: 1.8;
 }
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,6 +36,10 @@ body, html {
 }
 /* Third image (Contact) */
 .bgimg-3 {
+    background-image: url("flowers1.jpg");
+    min-height: 400px;
+}
+.bgimg-4 {
     background-image: url("suzz42.jpg");
     min-height: 400px;
 }
@@ -43,7 +47,7 @@ body, html {
 .w3-hover-opacity {cursor: pointer;}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
@@ -68,7 +72,7 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
     <a href="#blog" class="w3-bar-item w3-button" onclick="toggleFunction()">BLOG</a>
-    <a href="#blog" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+    <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
   </div>
 </div>
 
@@ -111,14 +115,15 @@ body, html {
   </div>
 </div>
 
-
-  
     <!-- Left Column -->
-    <div class="w3-content w3-small w3-container w3-padding-64" id="blog">
+    <div class="w3-content w3-small w3-container w3-padding-64" id="blog"> 
+      <div class="w3-content w3-small w3-container w3-padding-64" id="projects">
+
 
  <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-half">
+
 
       <a href="blog.html" ><img src="blog.jpg" style="width:100%" alt="blog pic" class="w3-container w3-hover-opacity"></a> 
       <p class="w3-center">Come check out my blog! I will be featuring my adventures & challenges in school with the STARS Program in my second year of college. Additionally, I will be talking about my internship experiences and just overall a weekly update about what I am doing & what I am up to! :) </p>
@@ -168,6 +173,71 @@ body, html {
   </footer>
   <!-- end here -->
 
+
+
+
+  <!-- Fourth Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-large w3-text-white w3-wide"></span>
+  </div>
+</div>
+
+    <!-- Left Column -->
+    <div class="w3-content w3-small w3-container w3-padding-64" id="blog">
+
+ <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-center">
+
+      <a href="resume.html" ><img src="res.jpg" style="width:50%" alt="blog pic" class="w3-container w3-hover-opacity"></a> 
+      <p class="w3-center">Welcome to the section encompassing my skills & experience along with where I am heading in terms of my tech career! I hope this helps to shed some light and give a better insight on my professional expertise along with my pursuit in a career in engineering. </p>
+      <!-- <img src="me.jpg" style="width:100%" onclick="onClick(this)" alt="Light, white and tight scandinavian design">
+      <img src="me.jpg" style="width:100%" onclick="onClick(this)" alt="White walls with designer chairs">-->
+    </div>
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+   <!--<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>-->
+
+  
+
+
+ 
+    
+
+</div>
+      </div>
+      <!-- End Right Column -->
+    </div>
+    <!-- End Grid -->
+  </div> 
+  <!-- End Page Container -->
+</div>
+<!--this is for the space in between the two sections-->
+<footer class="w3-container w3- w3-center w3-margin-top">
+  </footer>
+<footer class="w3-container w3- w3-center w3-margin-top">
+  </footer> 
+<footer class="w3-container w3- w3-center w3-margin-top">
+  </footer> 
+<footer class="w3-container w3- w3-center w3-margin-top">
+  </footer>
+  <!-- end here -->
+
+
+
+
+
+
+
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
@@ -185,9 +255,15 @@ body, html {
 </div>
 
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-  <h3 class="w3-center w3-xlarge">CONTACT ME!</h3>
-  <p class="w3-center">I'd love to hear from you!</p>
+<div class="w3-content w3-center w3-container w3-padding-64" id="contact">
+<img src="cont.jpg" style="width:50%" alt="blog pic" class="w3-container">
+
+
+
+
+  <p class="w3-center">Thank you so much for reading through my website, I really appreciate your interest in my work. Please feel free to reach out to me, I'd love to hear from you & receive some feedback! As always, onward & upwards!</p>
+
+  <p>*this part is off-center, I'll fix it soon! :)*</p>
     <div class="w3-col m4 w3-container">
 
     </div>
@@ -195,11 +271,11 @@ body, html {
 
     <div class="w3-col m8 w3-panel">
 
-      <div class="w3-xlarge w3-margin-bottom">
-        <i class="fa fa-map-marker w3-xlarge w3-margin-right"></i> Bellevue, Washington <br>
-        <i class="fa fa-phone w3-xlarge w3-margin-right"></i> Phone: (510)-270-8102 <br>
-        <i class="fa fa-envelope w3-xlarge w3-margin-right"></i> Email: clin3@uw.edu <br>  
-      </div>
+    
+        <i class="fa fa-map-marker w3-large w3-center"></i> Bellevue, Washington <br>
+        <i class="fa fa-phone w3-large w3-margin-right"></i> Phone: (510)-270-8102 <br>
+        <i class="fa fa-envelope w3-large w3-margin-right"></i> Email: clin3@uw.edu <br>  
+   
 
 <div class="w3-container w3-xxlarge">
   
