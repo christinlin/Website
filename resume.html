@@ -6,27 +6,211 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" href="monitor.png" type="w3-image" sizes="16x16">
-
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", arial;}
-body, html {
-    height: 100%;
-    color: #000000;
-    line-height: 1.8;
-}
-
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-        background-attachment: scroll;
-    }
-}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", arial}
 </style>
-<body>
-	<p> hii! resume will be coming soon ;) </p>
+<body class="w3-white">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    </div>
+
+ <div class="w3-center">
+<img src="res.jpg" style="width:40%" alt="projects pic" class="w3-container"></div>
+
+<!-- Navigation Bar (sit on top) -->
+<div class="w3-center">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    </a>
+        <a href="#education" class="w3-bar-item w3-button w3-hide-small">EDUCATION</a>
+    <a href="#experience" class="w3-bar-item w3-button w3-hide-small">EXPERIENCE</a>
+    <a href="#skills" class="w3-bar-item w3-button w3-hide-small">SKILLS</a>
+    <a href="#courses" class="w3-bar-item w3-button w3-hide-small">
+    COURSES</a>
+    <a href="#accomplishments" class="w3-bar-item w3-button w3-hide-small">ACCOMPLISHMENTS</a>
+    
+    
+  </div>
+</div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="#education" class="w3-bar-item w3-button" onclick="toggleFunction()">EDUCATION</a>
+    <a href="#experience" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPERIENCE</a>
+    <a href="#skills" class="w3-bar-item w3-button" onclick="toggleFunction()">SKILLS</a>
+    <a href="#courses" class="w3-bar-item w3-button" onclick="toggleFunction()">COURSES</a>
+    <a href="#accomplishments" class="w3-bar-item w3-button" onclick="toggleFunction()">ACCOMPLISHMENTS</a>
+  </div>
+
+  </div>
+
+<!-- Education -->
+    <div class=" w3-white w3-margin-bottom w3-container" id="education">
+        <h2 class="w3-text-black w3-padding-1"><img src="ed1.jpg" style="width:30%" alt="projects pic" class="w3-container"></h2>
+
+<!--stuff that keeps alighning -->
+        <div class="w3-margin-bottom w3-container">
+
+
+           <!--uw-->
+        <div class="w3-container">
+          <h3>
+            <img src="uw.jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="50" height="50">
+            <b>University of Washington | Undergraduate Student | Seattle, Washington </b></h3>
+          <h5 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2017 - June 2021</h5>
+          <h5> ◦ Undergraduate Sophomore in the UW <a href="https://www.engr.washington.edu/stars"> Washington State Academic Redshirt (STARS) Engineering Program</a> intending to study computer science at the Paul G. Allen Center for Computer Science & Engineering<h5>
+          <h5> ◦ Member of UW <a href="http://uwswe.com/" > Society of Women Engineers</a>, <a href="http://www.uwhuskytech.com/" > Husky Tech</a>, & <a href="http://www.tsauw.com/"> Taiwanese Student Association</a></h5>
+          
+          
+        </div>
+
+              
+    
+
+<!--Experience -->
+<div id="experience">
+        <h2 ><img src="experience.jpg" style="width:30%" alt="projects pic" class="w3-container"></h2>
+
+
+            <!--tmob-->
+        <div class="w3-container">
+          <h3>
+            <img src="tmob1.jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="50" height="50">
+            <b>T-Mobile HQ  | Incoming Software Developer | Bellevue, Washington </b></h3>
+          <h5 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>October 2018 - June 2019</h5>
+
+
+
+
+          <h5> * will imprve all descriptions soon, still working on this* thanks for your patience!</h5>
+
+
+
+
+          <h5> ◦ Interned at Expedia Inc. Headquarters in Bellevue for eight weeks as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) Team <h5>
+          <h5> ◦ Improved the <a href="https://christinlin.github.io/website/projects.html" > Media Vault Functionality</a> of the Local Expert website where suppliers such as Disney and Universal Studios upload their photos for approval on Expedia activities </h5>
+          <h5>◦ Worked on backend aspect of Media Vault meanwhile coding in Javascript along with Framework Ember.js, HTML/CSS </h5>
+          <h5> ◦ Presented Media Vault project to Expedia Inc. employees in the last week of internship </h5>
+          <hr>
+        </div>
+
+        <!--edifecs-->
+        <div class="w3-container">
+          <h3>
+            <img src="edifecs.jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="50" height="50">
+            <b>Edifecs | Software Design Engineer </b></h3>
+          <h5 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2018 - <span class="w3-tag w3-black w3-round">Current</span></h5>
+
+
+
+          <h5> * will imprve all descriptions soon, still working on this* thanks for your patience!</h5>
+
+
+          <h5> ◦ Interned at Expedia Inc. Headquarters in Bellevue for eight weeks as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) Team <h5>
+          <h5> ◦ Improved the <a href="https://christinlin.github.io/website/projects.html" > Media Vault Functionality</a> of the Local Expert website where suppliers such as Disney and Universal Studios upload their photos for approval on Expedia activities </h5>
+          <h5>◦ Worked on backend aspect of Media Vault meanwhile coding in Javascript along with Framework Ember.js, HTML/CSS </h5>
+          <h5> ◦ Presented Media Vault project to Expedia Inc. employees in the last week of internship </h5>
+          <hr>
+        </div>
+
+        <!--expedia -->
+        <div class="w3-container">
+          <h5>
+            <img src="expediagroup.jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="50" height="50">
+            <b>Expedia Group | Software Developer Apprentice</b></h5>
+          <h5 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2017 - August 2017</h5>
+
+
+
+          <h5> ◦ Interned at Expedia Inc. Headquarters in Bellevue for eight weeks as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) Team <h5>
+          <h5> ◦ Improved the <a href="https://christinlin.github.io/website/projects.html" > Media Vault Functionality</a> of the Local Expert website where suppliers such as Disney and Universal Studios upload their photos for approval on Expedia activities </h5>
+          <h5>◦ Worked on backend aspect of Media Vault meanwhile coding in Javascript along with Framework Ember.js, HTML/CSS </h5>
+          <h5> ◦ Presented Media Vault project to Expedia Inc. employees in the last week of internship </h5>
+          
+        </div>
+
+
+        <div id="skills">
+        <h2 ><img src="skills.jpg" style="width:23%" alt="projects pic" class="w3-container"></h2>
+
+
+         <!--tmob-->
+        <div class="w3-container">
+          <h5>
+            <img src=".jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="50" height="50">
+            <b>University of Washington Seattle | Computer Science Undergraduate Student </b></h5>
+          <h5 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2017 - June 2021</h5>
+
+
+
+
+          <h5> * will imprve all descriptions soon, still working on this* thanks for your patience!</h5>
+
+
+
+          <h5> ◦ Interned at Expedia Inc. Headquarters in Bellevue for eight weeks as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) Team <h5>
+          <h5> ◦ Improved the <a href="https://christinlin.github.io/website/projects.html" > Media Vault Functionality</a> of the Local Expert website where suppliers such as Disney and Universal Studios upload their photos for approval on Expedia activities </h5>
+          <h5>◦ Worked on backend aspect of Media Vault meanwhile coding in Javascript along with Framework Ember.js, HTML/CSS </h5>
+          <h5> ◦ Presented Media Vault project to Expedia Inc. employees in the last week of internship </h5>
+        
+        </div>
+
+        <div id="courses">
+        <h2 ><img src="courses.jpg" style="width:28%" alt="projects pic" class="w3-container"></h2>
+
+
+         <!--tmob-->
+        <div class="w3-container">
+          <h5>
+            <img src=".jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="50" height="50">
+            <b>University of Washington Seattle | Computer Science Undergraduate Student </b></h5>
+          <h5 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2017 - June 2021</h5>
+
+
+
+
+          <h5> * will imprve all descriptions soon, still working on this* thanks for your patience!</h5>
+
+
+
+          <h5> ◦ Interned at Expedia Inc. Headquarters in Bellevue for eight weeks as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) Team <h5>
+          <h5> ◦ Improved the <a href="https://christinlin.github.io/website/projects.html" > Media Vault Functionality</a> of the Local Expert website where suppliers such as Disney and Universal Studios upload their photos for approval on Expedia activities </h5>
+          <h5>◦ Worked on backend aspect of Media Vault meanwhile coding in Javascript along with Framework Ember.js, HTML/CSS </h5>
+          <h5> ◦ Presented Media Vault project to Expedia Inc. employees in the last week of internship </h5>
+          <hr>
+        </div>
+
+
+         <div id="accomplishments">
+        <h2 ><img src="acc.jpg" style="width:45%" alt="projects pic" class="w3-container"></h2>
+
+
+         <!--tmob-->
+        <div class="w3-container">
+          <h5>
+            <img src=".jpg" class="w3-circle w3-image w3-small " alt="Photo of Me" width="50" height="50">
+            <b>University of Washington Seattle | Computer Science Undergraduate Student </b></h5>
+          <h5 class="w3-text-black"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2017 - June 2021</h5>
+
+
+
+
+          <h5> * will imprve all descriptions soon, still working on this* thanks for your patience!</h5>
+
+
+
+          <h5> ◦ Interned at Expedia Inc. Headquarters in Bellevue for eight weeks as a Software Developer Apprentice on the Local Expert Partner Central (LXPC) Team <h5>
+          <h5> ◦ Improved the <a href="https://christinlin.github.io/website/projects.html" > Media Vault Functionality</a> of the Local Expert website where suppliers such as Disney and Universal Studios upload their photos for approval on Expedia activities </h5>
+          <h5>◦ Worked on backend aspect of Media Vault meanwhile coding in Javascript along with Framework Ember.js, HTML/CSS </h5>
+          <h5> ◦ Presented Media Vault project to Expedia Inc. employees in the last week of internship </h5>
+          <hr>
+        </div>
+
+
+
+
+
 </body>
 </html>
-
