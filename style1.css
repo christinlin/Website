@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+body {
+	font-family: "Open Sans"; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
+	background-color: #f39c9c; /* A HEX value that represents a purple color */
+	color: white; /* Seems unintuitive, but this stands for text-color! */
+	padding-left: 80px;
+}
+
+h1 {
+	font-size: 30pt; /* Lets you change the size of the font. */
+	margin-top: 5%;
+	padding-left: 50%
+
+	
+}
+
+h2 {
+	font-size: 20pt; 
+}
+
+#myphoto {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+
+}
+
+#contact-icons li {
+	display: inline; /* Shows all the icons in-line rather than all on separate lines */	
+}
+
+#contact-icons img {
+	width: 30px;
+	height: auto;
+	margin-right: 30px;
+	padding-bottom: 10px;
+	vertical-align: top;
+	align-content: center;
+}
+#resume-link {
+	color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
+}
+
+#resume-link:hover {
+	color: rgb(149, 243, 149);
+}
+#mySidenav a {
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 25px;
+    width: 220px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+	border-radius: 0 50px 50px 0;
+	float: right;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 50px;
+    background-color: rgb(255, 241, 113);
+}
+
+#blog {
+    top: 150px;
+    background-color:rgb(70, 245, 207);
+}
+
+#projects {
+    top: 250px;
+    background-color: rgb(149, 243, 149);
+}
+
+
+
+
+
+  .chatbox{
+	position: relative;
+	max-width:1000px;
+	height: auto;
+	border: 2px solid #ffffff;
+	margin: 100px auto;
+	padding: 30px;
+	box-sizing: border-box;
+	float: center;
+
+  }
+
+  .chatbox:after{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-top: 0px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	border-left: 0px solid #ffffff;
+	top:100%;
+	left: 50%;
+	margin-left: -25px;
+	content: '';
+	transform: rotate(45deg);
+	margin-top: -25px;
+	background: #f39c9c;
+	
+  }
+  a:hover > img {
+    border-bottom: 3px solid white;
+}
