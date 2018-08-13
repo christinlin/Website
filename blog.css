@@ -49,3 +49,20 @@
                 margin-right: auto;
                 width: 30%  
             }
+            h1{
+                font-size:20px;
+            }
+            #ncwit {
+                display: block;
+                margin-left: 20%;
+                height: 400px;
+                float: left;
+                margin-right: 30px;
+            
+            }
+            #ncwit-site {
+                color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
+            }
+            #ncwit-site:hover {
+                color: rgb(245, 227, 68);
+            }
