@@ -8,7 +8,7 @@
               
               body {
                 font-family: "Open Sans"; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
-                background-color: rgb(255, 241, 113); /* A HEX value that represents a purple color */
+                background-color: rgb(70, 245, 207); /* A HEX value that represents a purple color */
                 color: white; /* Seems unintuitive, but this stands for text-color! */
             }
             #mySidenav a {
@@ -30,7 +30,7 @@
             
             #blog {
                 top: 50px;
-                background-color:rgb(70, 245, 207);
+                background-color:rgb(255, 241, 113);
             }
             
             #projects {
