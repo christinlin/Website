@@ -29,7 +29,7 @@
             }
             #mystory {
                 top: 150px;
-                background-color: rgb(255, 241, 113);
+                background-color: rgb(70, 245, 207);
             }
             
             #home {
@@ -39,9 +39,30 @@
             
             #blog {
                 top: 250px;
-                background-color: rgb(70, 245, 207);
+                background-color: rgb(255, 241, 113);
             }
             #intune {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 300px;
+            
+            }
+            #bubs {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 300px;
+            
+            }
+            #expedia {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 300px;
+            
+            }
+            #braglog {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
@@ -63,8 +84,34 @@
                 float: left; /* Allows text to be to the right of the image */
                 margin-right: 30px; /* Gives breathing room between image and the text */
             }
+            #bubs{
+                display: block;
+
+                margin-left: 25%;
+                margin-right: auto;
+                float: left; /* Allows text to be to the right of the image */
+                margin-right: 30px; /* Gives breathing room between image and the text */
+            }
+            #expedia{
+                display: block;
+
+                margin-left: 25%;
+                margin-right: auto;
+                float: left; /* Allows text to be to the right of the image */
+                margin-right: 30px; /* Gives breathing room between image and the text */
+            }
+            #braglog{
+                display: block;
+
+                margin-left: 25%;
+                margin-right: auto;
+                float: left; /* Allows text to be to the right of the image */
+                margin-right: 30px; /* Gives breathing room between image and the text */
+            }
             /* #projectsdiv {
                 margin-left: 25%;
                 margin-right: 25%;
             } */
-          
+            #checkout-link {
+                color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
+            }
