@@ -72,6 +72,13 @@
                 height: 300px;
             
             }
+            #medzii {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                height: 300px;
+            
+            }
             #projects{
                 display: block;
                 margin-top: 3%;
@@ -110,6 +117,15 @@
                 float: left; /* Allows text to be to the right of the image */
                 margin-right: 30px; /* Gives breathing room between image and the text */
             }
+            #medzii{
+                display: block;
+                margin-left: 25%;
+                margin-right: auto;
+                float: left; /* Allows text to be to the right of the image */
+                margin-right: 30px; /* Gives breathing room between image and the text */
+            }
+            
+
             /* #projectsdiv {
                 margin-left: 25%;
                 margin-right: 25%;
