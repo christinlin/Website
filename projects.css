@@ -23,6 +23,20 @@
                 border-radius: 0 50px 50px 0;
                 float: right;
             }
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            td {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #dddddd;
+            }
             h1{
                 font-size:20px;
             }
