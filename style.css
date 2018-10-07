@@ -63,7 +63,13 @@ h2 {
 #tmob-link {
 	color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
 }
+#stars-link:hover {
+	color: rgb(200, 136, 243);
+}
 
+#tmob-link:hover {
+	color: rgb(245, 104, 209);
+}
 
 #resume-link:hover {
 	color: rgb(149, 243, 149);
