@@ -102,7 +102,6 @@
             }
             #braglog{
                 display: block;
-
                 margin-left: 25%;
                 margin-right: auto;
                 float: left; /* Allows text to be to the right of the image */
@@ -115,3 +114,7 @@
             #checkout-link {
                 color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
             }
+            #checkout-link:hover {
+                color: rgb(240, 186, 107);
+            }
+
