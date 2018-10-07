@@ -66,6 +66,12 @@ h2 {
 #medzii-link {
 	color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
 }
+#expedia-link {
+	color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
+}
+#expedia-link:hover {
+	color: rgb(95, 118, 247);
+}
 #stars-link:hover {
 	color: rgb(200, 136, 243);
 }
