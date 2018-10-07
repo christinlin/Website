@@ -63,8 +63,14 @@ h2 {
 #tmob-link {
 	color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
 }
+#medzii-link {
+	color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
+}
 #stars-link:hover {
 	color: rgb(200, 136, 243);
+}
+#medzii-link:hover {
+	color: rgb(149, 243, 149);
 }
 
 #tmob-link:hover {
@@ -72,7 +78,7 @@ h2 {
 }
 
 #resume-link:hover {
-	color: rgb(149, 243, 149);
+	color: rgb(99, 232, 241);
 }
 #mySidenav a {
     position: absolute;
