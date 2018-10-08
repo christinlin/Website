@@ -27,7 +27,11 @@
             #mySidenav a:hover {
                 left: 0;
             }
-            
+            /* #techx {
+                top: 50px;
+                background-color:  rgb(233, 44, 132);
+            } */
+
             #blog {
                 top: 50px;
                 background-color:rgb(255, 241, 113);
@@ -54,7 +58,7 @@
             }
             #digi {
                 display: block;
-                margin-left: 20%;
+                margin-left: 15%;
                 height: 500px;
                 float: left;
             
