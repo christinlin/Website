@@ -4,7 +4,21 @@ body {
 	color: white; /* Seems unintuitive, but this stands for text-color! */
 	padding-left: 80px;
 }
+/* chris {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
 
+} */
+#myphoto{
+	display: block;
+
+	margin-left: 13%;
+	margin-right: auto;
+	float: left; /* Allows text to be to the right of the image */
+	margin-right: 30px; /* Gives breathing room between image and the text */
+}
 h1 {
 	font-size: 20pt; /* Lets you change the size of the font. */
 	text-align: center;
@@ -28,8 +42,6 @@ h2 {
 
 #myphoto {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 500px;
 
 }
@@ -123,7 +135,7 @@ h2 {
     background-color: rgb(149, 243, 149);
 }
 
-.chatbox{
+/* .chatbox{
 position: relative;
 max-width:1000px;
 height: auto;
@@ -151,7 +163,7 @@ transform: rotate(45deg);
 margin-top: -25px;
 background: #f39c9c;
 	
-}
+} */
 a:hover > img {
 	border-bottom: 3px solid white;
 }
