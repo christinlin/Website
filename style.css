@@ -47,7 +47,7 @@ h2 {
 }
 
 #contact-icons {
-/* 	text-align: center; */
+	text-align: center;
 }
 #contact-icons li {
 	display: inline-block; /* Shows all the icons in-line rather than all on separate lines */
