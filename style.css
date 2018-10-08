@@ -21,7 +21,7 @@ body {
 }
 h1 {
 	font-size: 20pt; /* Lets you change the size of the font. */
-	text-align: center;
+/* 	text-align: center; */
 
 
 }
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
 	font-size: 20pt; 
-	text-align: center;
+/* 	text-align: center; */
 	
 }
 
@@ -47,7 +47,7 @@ h2 {
 }
 
 #contact-icons {
-	text-align: center;
+/* 	text-align: center; */
 }
 #contact-icons li {
 	display: inline-block; /* Shows all the icons in-line rather than all on separate lines */
