@@ -1,3 +1,9 @@
+@media only screen and (device-width: 1280px),
+only screen and (max-width:1280px) {
+.css-element {
+yourcsscode:;
+}
+   }
 body {
 	font-family: "Open Sans"; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
 	background-color: #f39c9c; /* A HEX value that represents a purple color */
