@@ -1,128 +1,489 @@
-/* .css-selector {
-  font-family: 'Font Name', serif;
-} */
-
-/* header {
-    background-color:rgb(255, 255, 255);
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-} */
-
-
-/* body {
-        
-} */
-#christin {
-	display: block;
-	margin-top: 3%;
-	margin-left: auto;
-	margin-right: auto;
-	width: 25%
-	
-}
-#t-mob{
-    display: block;
-    margin-left: 1%;
-    margin-right: 15px;
-    float:left;
-    border-radius:50%;
-    width:7%;
-}
-
-#workExperience{
-    display: block;
-    margin-block-start: 5%
-}
-* {
-    font-family: 'Montserrat', sans-serif;
+@media screen and (max-width: 1020px) {
+  #name-header {
+    margin-top: 40%;
+    font-size: 5em;
+    padding-left: 10%;
   }
-  .w100 {
-    font-weight: 100;
-  }
-  .w200 {
-    font-weight: 200;
-  }
-  .w300 {
-    font-weight: 300;
-  }
-  .w400 {
-    font-weight: 400;
-  }
-  <style>
-  * {
-      box-sizing: border-box;
-  }
-  
-  body {
-      font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  
-  * {
-    box-sizing: border-box;
-}
 
+  #index-list {
+    font-size: 3em;
+    padding-left: 20%;
+    z-index: 2;
+    margin-bottom: 10%;
+  }
 
+  #contact img {
+    border: 3px solid transparent;
+    width: 50px;
+    height: auto;
+    margin: 1%;
+    vertical-align: middle;
+  }
 
-/* Create two columns/boxes that floats next to each other */
-nav {
-    float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    background:rgb(255, 255, 255);
-    padding: 20px;
-}
+  #linked-in img {
+    width: 60px;
+    height: auto;
+  }
 
-/* Style the list inside the menu */
-nav ul {
+  #contact {
+    margin-left: 60%;
+    margin-right: 2%;
+    margin-bottom: 2%;
     list-style-type: none;
-    padding: 0;
+  }
+
+  /* img {
+    height: 470%;
+  } */
+
+  #stats-head {
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 5%;
+  }
+
+  #flower {
+    height: 650px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .list-header {
+    text-indent: -4em;
+    margin-bottom: -10px;
+    text-decoration: underline;
+  }
+
+  .header {
+    font-size: 30px;
+    padding-right: 10%;
+  }
+
+  button {
+    padding: 15px 25px;
+    font-size: 25px;
+  }
 }
 
-article {
-    float: left;
-    padding: 20px;
-    width: 70%;
-    background-color:rgb(255, 255, 255);
-    height: 300px; /* only for demonstration, should be removed */
+@media screen and (min-width: 1021px) {
+  #name-header {
+    /* font-size: 5vw; */
+    padding-left: 8%;
+  }
+
+  #index-list {
+    font-size: 3vw;
+    padding-left: 33%;
+  }
+
+  #contact img {
+    border: 3px solid transparent;
+    width: 50px;
+    height: auto;
+    margin: 1%;
+    vertical-align: middle;
+  }
+
+  #linked-in img {
+    width: 40px;
+    height: auto;
+  }
+
+  #contact {
+    margin-left: 85%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    list-style-type: none;
+  }
+
+  /* img {
+    height: 400%;
+  } */
+
+  #stats-head {
+    margin-top: 5%;
+    margin-left: 55%;
+  }
+
+  #flower {
+    height: 550px;
+    width: auto;
+    padding-left: 10%;
+    margin-top: -5%;
+  }
+
+  .list-header {
+    text-indent: -7em;
+    margin-bottom: -10px;
+    text-decoration: underline;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
 }
 
-/* Clear floats after the columns */
-section:after {
-    content: "";
-    display: table;
-    clear: both;
+html {
+	font-family: 'Lato', sans-serif;
+	color: white;
 }
 
-/* Style the footer */
-footer {
-    background-color:lightpink;
-    padding: 10px;
-    text-align: center;
-    color: white;
+#home-html, #home-body {
+  overflow: hidden;
 }
 
-/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-@media (max-width: 600px) {
-    nav, article {
-        width: 100%;
-        height: auto;
-    }
+body {
+	background-color: #ffbeb1;
+	margin: 0;
+  padding: 0;
 }
 
-#tmob-link {
-	color:rgb(0, 0, 0); /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
+.learn-head {
+  font-size: 25px;
+  margin-left: 150px;
+  color: #BCED91;
 }
-#tmob-link:hover {
-	color:rgb(255, 255, 255);
 
-} 
-#hercampus-link {
-	color:rgb(0, 0, 0); /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 2px dotted black;
+  cursor: pointer;
 }
-#hercampus-link:hover {
-	color:lightpink;
 
-} 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 6px;
+  position: absolute;
+  margin-left: 10px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  cursor: pointer;
+}
+
+#project-body {
+	background-color: #ffbeb1;
+}
+
+#fun-stuff-body {
+  background-color: #f49242;
+}
+
+.header {
+  text-align: center;
+}
+
+#project-head, #fun-stuff-head {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+#teach-head {
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+#git-head {
+  display: inline-block;
+  margin-left: 28%;
+  margin-right: 1%;
+}
+
+#create-head {
+  display: inline-block;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+#teach-body .list-header {
+  text-indent: 0;
+}
+
+.image-figure {
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+
+.in-line-image {
+  border: 5px #272626 solid;
+  width: 650px;
+  height: auto;
+}
+
+button {
+  background-color: #00C3FB;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-next {
+  margin-left: 3%;
+}
+
+.btn-secondary {
+  background-color: #808080;
+  margin-left: 1%;
+}
+
+#home-btn {
+  margin-left: 10%;
+  position: relative;
+  display: inline;
+}
+
+#name-header {
+	text-align: center;
+	padding-top: 10%;
+}
+
+.body-hide {
+  overflow: hidden;
+  float: left;
+  vertical-align: baseline;
+}
+
+/* img {
+  width: auto;
+  vertical-align: baseline;
+} */
+
+.main-body {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+}
+
+.no-event {
+  pointer-events: none;
+}
+
+.bleed-bottom {
+  height: 100px;
+  margin: 0px 40px -9999px 20px;
+  padding: 0px 10px 10250px 20px;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #7ceec7;
+  cursor: pointer;
+}
+
+#resumehead {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(img/simple-pre-loader/images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
+
+#resume {
+  max-width: 100%;
+  width: 800px;
+  height: 1025px;
+  border: 10px solid #414447;
+  margin: auto;
+}
+
+#contact li {
+	display: inline;
+}
+
+.hidden {
+  display: none;
+}
+
+#contact img:hover {
+	margin-top: -1%;
+}
+
+.fade {
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+#project-rows {
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  text-align: center;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column .image-container img {
+  vertical-align: middle;
+  height: 250px;
+  width: auto;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  height: 255px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7ceec7;
+}
+
+.image-container:hover .overlay {
+  opacity: 0.85;
+}
+
+.code {
+  text-align: center;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+#teach-body {
+  background-color: #501e8c;
+}
+
+#git-body {
+  background-color: #2E8B57;
+}
+
+#create-body {
+  background-color: #00b386;
+}
+
+p, .learn-links, .learn-list {
+  font-size: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.video-js {
+  border: white solid 2px;
+}
+
+#video-containers {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+.video-container {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+
+#infographic {
+  margin-top: 40px;
+  margin-left: 153px;
+}
+
+#create-intro {
+  margin-left: 160px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  margin: auto;
+  width: 30%;
+  background-color: #ffbeb1;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: right;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  /* background-color: #7ceec7; */
+  color: white;
+  /* text-decoration:underline; */
+  border-bottom: 5px solid white;
+}
+
+
+/* Add a color to the active/current link - one selected */
+.topnav a.active {
+  /* background-color: #7ceec7; */
+  color: white;
+}
